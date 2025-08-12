@@ -1,9 +1,5 @@
-import express from 'express';
-import fetch from 'node-fetch';  // npm install node-fetch@2
-import cors from 'cors';
-
 const express = require('express');
-const fetch = require('node-fetch');
+const fetch = require('node-fetch'); // make sure it's v2, not v3
 const cors = require('cors');
 
 const app = express();
